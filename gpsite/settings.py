@@ -105,7 +105,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-AUTH_USER_MODEL = 'pool.User'
+AUTH_USER_MODEL = 'auth.User'
 
 
 # Internationalization
