@@ -1,0 +1,31 @@
+body {
+    background-color: lightgreen !important;
+}
+
+#content {
+    border-width: 2px;
+    border-color: black;
+    border-radius: 4px;
+    background-color: whitesmoke;
+}
+
+.navbar.navbar-default {
+    background-color: whitesmoke;
+}
+
+.navbar-default a.navbar-brand {
+    color: black;
+}
+
+.navbar-default a:visited.navbar-brand {
+    color: black;
+}
+
+.img-responsive {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.username {
+    margin-top: 20px;
+}

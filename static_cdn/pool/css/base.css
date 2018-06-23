@@ -1,0 +1,23 @@
+body {
+  background-color: lightgreen !important;
+}
+
+#userinfo * {
+  margin: 0;
+}
+
+.navbar-default a.navbar-brand {
+  color: green;
+}
+
+.navbar-default a:visited.navbar-brand {
+  color: green;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.username {
+  margin-top: 0;
+}
