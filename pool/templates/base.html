@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% block title %}
+        <title>Old Pine Golf Pools</title>
+    {% endblock %}
+    <!-- Stylesheets -->
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'pool/css/base.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'pool/bootstrap-3.3.7-dist/css/bootstrap.min.css' %}" />
+    <!-- End Stylesheets -->
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Old Pine Golf Pools</a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    {% block navbarchoices %}
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+                    {% endblock %}
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- End Navbar -->
+    <div class="container">
+        <div id="content" class="container-fluid">
+            {% block body %}
+
+            {% endblock %}
+        </div>
+    </div>
+</body>
+<!-- Scripts -->
+<script src="{% static 'pool/bootstrap-3.3.7-dist/js/jquery.min.js' %}"></script>
+<script src="{% static 'pool/bootstrap-3.3.7-dist/js/bootstrap.min.js' %}"></script>
+<!-- End Scripts -->
+</html>
